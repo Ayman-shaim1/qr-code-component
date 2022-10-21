@@ -1,0 +1,40 @@
+@import url("https://fonts.google.com/specimen/Outfit");
+
+/* Begin Variables */
+:root {
+  --white-color: hsl(0, 0%, 100%);
+  --light-gray-color: hsl(212, 45%, 89%);
+  --grayishg-blue-color: hsl(220, 15%, 55%);
+  --dark-blue-color: hsl(218, 44%, 22%);
+  --paragraph-font-size: 15px;
+}
+/* End Variables */
+
+/* Begin Global Rules */
+* {
+  box-sizing: border-box;
+}
+p {
+  font-size: var(--paragraph-font-size) !important;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--light-gray-color);
+}
+/* End Global Rules */
+
+/* Begin Container */
+.container {
+  position: relative;
+  height: 100vh;
+}
+/* End Container */
+
+/* Begin Qr-Card */
+.qr-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* End Qr-Card */

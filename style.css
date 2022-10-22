@@ -7,6 +7,7 @@
   --grayishg-blue-color: hsl(220, 15%, 55%);
   --dark-blue-color: hsl(218, 44%, 22%);
   --paragraph-font-size: 15px;
+  --border-raduis: 15px;
 }
 /* End Variables */
 
@@ -36,5 +37,23 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 300px;
+  background-color: var(--white-color);
+  padding: 13px;
+  border-radius: var(--border-raduis);
+}
+.qr-card img {
+  width: 100%;
+  border-radius: var(--border-raduis);
+}
+.qr-card .qr-card-text {
+  padding: 20px;
+}
+.qr-card .qr-card-text h3 {
+  color: var(--dark-blue-color);
+  margin: 0;
+}
+.qr-card .qr-card-text p {
+  color: var(--grayishg-blue-color);
 }
 /* End Qr-Card */
